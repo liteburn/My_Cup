@@ -1,4 +1,5 @@
-# source https://github.com/gsuitedevs/python-samples/blob/master/gmail/quickstart/quickstart.py
+# source https://github.com/gsuitedevs/python-samples/blob/master/gmail/\
+#                                               quickstart/quickstart.py
 # instructions https://developers.google.com/gmail/api/quickstart/python
 
 
@@ -11,6 +12,7 @@ from google.auth.transport.requests import Request
 
 # If modifying these scopes, delete the file token.pickle.
 SCOPES = ['https://www.googleapis.com/auth/gmail.readonly']
+
 
 def main():
     """Shows basic usage of the Gmail API.
@@ -47,6 +49,7 @@ def main():
         print('Labels:')
         for label in labels:
             print(label['name'])
+
 
 if __name__ == '__main__':
     main()
